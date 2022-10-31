@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color:rgb(47, 47, 50);
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgb(47, 47, 50);
+}
+
+li:hover {
+    border-bottom: 5px solid white;
+}
+
+li a {
+    display: inline-block;
+    width: 120px;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}

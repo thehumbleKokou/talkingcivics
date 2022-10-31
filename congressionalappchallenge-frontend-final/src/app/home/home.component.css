@@ -1,0 +1,94 @@
+.home {
+    background-image: url("src/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+}
+
+.page-header {
+    background-color: rgb(116, 115, 126);
+    color: white;
+    padding: 100px 30px 70px 30px;
+    clear: both;
+}
+
+.header-text p {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.question {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+}
+
+path {
+    fill: gray;
+    stroke: white;
+    stroke-width: 1;
+}
+
+path:hover {
+    fill: white;
+    stroke: gray;
+    stroke-width: 1;
+}
+
+a {
+    color: white;
+}
+
+.map-and-card {
+    margin: 5vw;
+    display: grid;
+    grid-template-areas:
+    "title title"
+    "map card"
+    ".   card";
+
+    grid-template-rows: 2vh 150vh 1fr;
+    grid-template-columns: 3fr 1fr;
+
+    background-color: white;
+    padding: 20px;
+    grid-gap: 20px;
+
+    border-bottom: 30px solid rgb(228, 228, 228);
+
+}
+
+
+.map-title {
+    grid-area: title;
+}
+
+.state-data div {
+    margin: 10px 0;
+}
+
+.state-card {
+    margin: 50px;
+    grid-area: card;
+}
+
+.state-flag {
+    width: 150px;
+    max-height: 100px;
+    padding: 0;
+}
+
+.flag-container {
+    height: 100px;
+}
+
+.map {
+    grid-area: map;
+}

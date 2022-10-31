@@ -1,0 +1,38 @@
+<div class="government">
+    <div class="seperation-powers">
+        <h1>Overview</h1>
+        <p>The American Revolution was about freedom from tyranny. The framers of the Constitution feared that a government that was too strong would lead to the same tyranny. As such, the Constitution breaks the federal government into 3 separate branches and limits their powers.</p>
+        <p>The Executive branch is the head of government. Its main purpose is to execute laws. If tyranny was going to happen, this is the branch the Founders feared it would come from. As such, they purposely limited the powers of the branch.</p>
+        <p>The Legislative branch is the lawmaking body. Its purpose is to create laws. Tyranny could come from this branch, thus the Founders gave specific powers to them. However, they wanted this branch to be the most powerful.</p>
+        <p>The Judicial branch is the judging body of the government. They rule on the constitutionality of laws/actions. The founders were less concerned about tyranny from this branch as their rulings derived from the Constitution itself.</p>
+        <p>The founders gave each branch checks on the others. Each branch has to work with the other branches and each branch can even negate something another branch does. These concepts are extremely important to the daily functioning of the government.</p>
+        <p>Scroll down for more information on each branch.</p>
+    </div>
+    <div class="government-branches">
+        <ul>
+            <li (click)="branchName='legislative'">
+                <a><p>Legislative</p></a>
+            </li>
+            <li (click)=" branchName='executive' ">
+                <a><p>Executive</p></a>
+            </li>
+            <li (click)=" branchName='judicial' ">
+                <a>
+                    <p>Judicial</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- depending on button selected, switch to that branch's component -->
+    <section class="branch" [ngSwitch]= "branchName" >
+        <div *ngSwitchCase=" 'legislative' ">
+            <app-legislative></app-legislative>
+        </div>
+        <div *ngSwitchDefault=" 'executive' ">
+            <app-executive></app-executive>
+        </div>
+        <div *ngSwitchCase=" 'judicial' ">
+            <app-judicial></app-judicial>
+        </div>
+    </section>
+</div>

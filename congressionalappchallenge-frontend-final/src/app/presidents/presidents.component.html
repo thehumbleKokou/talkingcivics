@@ -1,0 +1,16 @@
+<section class="presidential-election">
+    <h1>Electing the President</h1>
+    <p>The process of electing the president is a lengthy one, and the campaigning process begins long before the date of the actual election. Unsurprisingly, there are many people who have ambitions of becoming the president, but each political party must decide on just one candidate to represent them at the election, to ensure their votes are not divided between multiple candidates. The parties narrow their potential candidates down through a series of discussions and debates, before finally voting on their presidential candidate in a primary in each state. If a candidate wins the most votes in a primary, the state gives a certain amount of delegates to the candidate. When a candidate reaches a certain number of delegates, they become the party nominee in the general election. The party that the incumbent president belongs must also decide if they want to support the incumbent for reelection or if they want to choose a new candidate.</p>
+    <p>The winners of the primaries go on to the general election. This election is special, as instead of the president needing to win the popular vote, they must win the majority of the Electoral College, which is composed of 538 electors. The number of electors each state has is equal to the amount of representatives and senators the state has. (For example, New Jersey has 12 representatives and 2 senators, so New Jersey has 14 electors.) This means the voters do not directly vote for the president; instead, the electors in each state see which candidate got the majority of votes in their state, and pledge their electoral votes to that candidate. Electors do not actually have to vote for the candidate that "won" the state, but in modern times this is the case practically all the time.</p>
+    <p>Whichever candidate earns 270 or more electoral votes (more than half of the electoral vote) wins the election and is elected to a four year term.</p>
+    <p>You can see the list of all elected presidents below.</p>
+</section>
+<section class="presidents">   
+    <div class="president non-aligned" *ngFor="let president of presidents; let i = index">
+        <img src="{{ presidents[i].portraitLink }}" alt="" class="president-portrait"/>
+        <h1 class="president-name">{{ i + 1 }}. {{ presidents[i].name }}</h1>
+        <p class="affilation">{{ presidents[i].party }}</p>
+        <p class="term">In office {{ presidents[i].startYear }}-{{ presidents[i].endYear }}</p>
+    </div>
+</section>
+

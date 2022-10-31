@@ -1,0 +1,66 @@
+.party-header {
+    background-color: rgb(116, 115, 126);
+    color: white;
+    padding: 70px 30px 30px 30px;
+}
+
+.parties {
+    padding-bottom: 200px;
+}
+
+.party {
+    width: 60%;
+    padding: 30px;
+    margin-bottom:50px;
+
+    /* clear all floating elements*/
+    clear: both;
+}
+
+
+.right {
+    float: right;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.party-logo {
+    display: inline-block;
+    height: 80px;
+}
+.democrat {
+    /* extra margin to make room for header */
+    margin-top: 50px;
+
+    background-color: #0098d4;
+    color: white;
+    border-bottom: 30px solid #0090c9;
+}
+
+.republican {
+    background-color: #d20000;
+    color: white;
+    border-bottom: 30px solid #bf0000;
+}
+
+.libertarian {
+    background-color:#f0c506;
+    color: white;
+    border-bottom: 30px solid#e0b807;
+}
+
+.green {
+    background-color: #508C1B;
+    color: white;
+    border-bottom: 30px solid #487e18;
+}
+
+h1, h2, p {
+    padding: 8px 30px;
+}
+
+.party-title {
+    font-size : 35px;
+}

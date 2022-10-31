@@ -1,0 +1,20 @@
+
+.politics {
+    background-image: url("src/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+}
+
+/*extra padding to make room for the navigation bar*/
+.section-header {
+    background-color: rgb(116, 115, 126);
+    color: white;
+    padding: 75px 30px 30px 30px;
+    clear: both;
+}
+
+.section-header:not(:first-of-type) {
+    padding: 30px;
+}
