@@ -159,7 +159,7 @@ export class HomeComponent implements OnInit {
       motto: "State Sovereignty, National Union",
       flagLink: "./assets/flags/IL.jpg",
       capital: "Springfield",
-      governor: "J.B. Pritzker",
+      governor: "JB Pritzker",
       senators: ["Dick Durbin", "Tammy Duckworth"],
       representatives: ["Bobby Rush (D-IL01)",
         "Robin Kelly (D-IL02)", "Marie Newman (D-IL03)", "Jesús Garcia (D-IL04)", "Mike Quigley (D-IL05)", "Sean Casten (D-IL06)", "Danny K. Davis (D-IL07)", "Raja Krishnamoorthi (D-IL08)", "Jan Schakowsky (IL-09)",
@@ -193,7 +193,7 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/KS.png",
       capital: "Topeka",
       governor: "Laura Kelly",
-      senators: ["Jerry Moran", "Roger Marshal"],
+      senators: ["Jerry Moran", "Roger Marshall"],
       representatives: ["Tracey Mann (R-KS01)", "Jake LaTurner (R-KS02)", "Sharice Davids (D-KS03)", "Ron Estes (R-KS04)"]
     },
     {
@@ -294,10 +294,10 @@ export class HomeComponent implements OnInit {
       motto: "Let the good of the people be the supreme law",
       flagLink: "./assets/flags/MO.png",
       capital: "Jefferson City",
-      governor: "Mike Parson",
+      governor: "Michael Parson",
       senators: ["Roy Blunt", "Josh Hawley"],
       representatives: [
-        "Cor Bush (D-MO01)", "Ann Wagner (R-MO02)", "Blaine Luetkemeyer (R-MO03)", "Vicky Hartzler (R-MO04)", "Emanuel Cleaver (D-MO05)", "Sam Graves (R-MO06)", "Billy Long (R-MO07)", "Jason Smith (R-MO08)"
+        "Cori Bush (D-MO01)", "Ann Wagner (R-MO02)", "Blaine Luetkemeyer (R-MO03)", "Vicky Hartzler (R-MO04)", "Emanuel Cleaver (D-MO05)", "Sam Graves (R-MO06)", "Billy Long (R-MO07)", "Jason Smith (R-MO08)"
       ]
     },
     {
@@ -682,7 +682,7 @@ export class HomeComponent implements OnInit {
       motto: "By and By",
       flagLink: "./assets/flags/WA.jpg",
       capital: "Olympia",
-      governor: " Jay Inslee",
+      governor: "Jay Inslee",
       senators: ["Patty Murray", "Maria Cantwell"],
       representatives: [
         "Suzan DelBene (D-WA01)",
@@ -701,10 +701,10 @@ export class HomeComponent implements OnInit {
       name: "West Virginia",
 
       motto: "Mountaineers Are Always Free",
-      flagLink: "./assets/flags/WI.jpg",
+      flagLink: "./assets/flags/WV.jpg",
       capital: "Charleston",
       governor: "Jim Justice",
-      senators: ["Joe Manchin", "Shelley moore Capito"],
+      senators: ["Joe Manchin", "Shelley Moore Capito"],
       representatives: [
         "David McKinley (R-WV01)",
         "Alex Mooney (R-WV02)",
@@ -715,7 +715,7 @@ export class HomeComponent implements OnInit {
       name: "Wisconsin",
 
       motto: "Forward",
-      flagLink: "./assets/flags/WV.jpg",
+      flagLink: "./assets/flags/WI.jpg",
       capital: "Madison",
       governor: "Tony Evers",
       senators: ["Ron Johnson", "Tammy Baldwin"],
@@ -747,10 +747,10 @@ export class HomeComponent implements OnInit {
   public changeState(stateIndex: number) {
     this.currentState = this.states[stateIndex];
 
-    this.http.get<Governor>('https://congressionalappchallenge2.herokuapp.com/getgovernor/' + this.currentState.governor).subscribe((response) => { this.governor = response; }),
+    this.http.get<Governor>('https://congressionalappchallenge2.herokuapp.com/getgovernor/' + this.currentState.governor).subscribe((response) => { this.governor = response; console.log(response)}),
 
-    this.http.get<any>('https://congressionalappchallenge2.herokuapp.com/getsenator/' + this.currentState.senators[0]).subscribe((response) => { this.senators[0] = response; }),
-    this.http.get<any>('https://congressionalappchallenge2.herokuapp.com/getsenator/' + this.currentState.senators[1]).subscribe((response) => { this.senators[1] = response; })
+    this.http.get<any>('https://congressionalappchallenge2.herokuapp.com/getsenator/' + this.currentState.senators[0]).subscribe((response) => { this.senators[0] = response; console.log(response)}),
+    this.http.get<any>('https://congressionalappchallenge2.herokuapp.com/getsenator/' + this.currentState.senators[1]).subscribe((response) => { this.senators[1] = response; console.log(response)})
   }
 
   ngOnInit(): void {
