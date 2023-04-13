@@ -27,10 +27,10 @@ export class HomeComponent implements OnInit {
 
       motto: "We Dare Defend Our Rights",
       governor: "Kay Ivey",
-      senators: ["Richard Shelby", "Tommy Tuberville"],
+      senators: ["Katie Britt", "Tommy Tuberville"],
       flagLink: "./assets/flags/AL.jpg",
       capital: "Montgomery",
-      representatives: ["Jerry Carl (R-AL01)", "Barry Moore (R-AL02)", "Mike Rogers (R-AL03)", "Robert Aderholt (R-AL04)", "Mo Brooks (R-AL05)", "Gary Palmer (R-AL06)", "Terri Sewell (D-AL07)"]
+      representatives: ["Jerry Carl (R-AL01)", "Barry Moore (R-AL02)", "Mike Rogers (R-AL03)", "Robert Aderholt (R-AL04)", "Dale Strong (R-AL05)", "Gary Palmer (R-AL06)", "Terri Sewell (D-AL07)"]
     },
     {
       name: "Alaska",
@@ -47,11 +47,11 @@ export class HomeComponent implements OnInit {
       name: "Arizona",
 
       motto: "God enriches",
-      governor: "Doug Ducey",
+      governor: "Katie Hobbs",
       senators: ["Kyrsten Sinema", "Mark Kelly"],
       flagLink: "./assets/flags/AZ.png",
       capital: "Phoenix",
-      representatives: ["Tom O’Halleran (D-AZ01)", "Ann Kirkpatrick (D-AZ02)", "Raúl Grijalva (D-AZ03)", "Paul Gosar (R-AZ04)", "Andy Biggs (R-AZ05)", "David Schweikert (R-AZ06)", "Ruben Gallego (D-AZ07)", "Debbie Lesko (R-AZ08)", "Greg Stanton (D-AZ09)"]
+      representatives: ["David Schweikert (R-AZ01)", "Eli Crane (R-AZ02)", "Ruben Gallego (D-AZ03)", "Greg Stanton (D-AZ04)", "Andy Biggs (R-AZ05)", "Juan Ciscomani (R-AZ06)", "Raúl Grijalva (D-AZ07)", "Debbie Lesko (R-AZ08)", "Paul Gosar (R-AZ09)"]
     },
     {
       name: "Arkansas",
@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit {
       motto: "The People Rule",
       flagLink: "./assets/flags/AR.gif",
       capital: "Little Rock",
-      governor: "Asa Hutchinson",
+      governor: "Sarah Huckabee Sanders",
       senators: ["John Boozman", "Tom Cotton"],
       representatives: ["Rick Crawford (R-AR01)", "French Hill (R-AZ02)", "Steve Womack (R-AZ03)", "Bruce Westerman (R-AR04)"]
     },
@@ -71,13 +71,13 @@ export class HomeComponent implements OnInit {
       capital: "Sacramento",
       governor: "Gavin Newsom",
       senators: ["Dianne Feinstein", "Alex Padilla"],
-      representatives: ["Doug LaMafia (R-CA01)", "Jared Huffman (D-CA02)", "John Garamendi (D-CA03)", "Tom McClintock (R-CA04)", "Mike Thompson (D-CA05)", "Doris Matsui (D-CA06)",
-      "Ami Bera (D-CA07)", "Jay Obernolte (R-CA08)", "Jerry McNerney (D-CA09)", "Josh Harder (D-CA10)", "Mark DeSaulnier (D-CA11)", "Nancy Pelosi (D-CA12)", "Barbara Lee (D-CA13)",
-      "Jackie Speier (D-CA14)", "Eric Swalwell (D-CA15)", "Jim Costa (D-CA16)", "Ro Khanna (D-CA17)", "Anna Eshoo (D-CA18)", "Zo Lofgren (D-CA19)", "Jimmy Panetta (D-CA20)", "David Valadao (R-CA21)",
-      "Connie Conway (R-CA22)", "Kevin McCarthy (R-CA23)", "Salud Carbajal (D-CA24)", "Mike Garcia (R-CA25)", "Julia Brownley (D-CA26)", "Judy Chu (D-CA27)", "Adam Schiff (D-CA28)", "Tony Cárdenas (D-CA29)",
-      "Brad Sherman (D-CA30)", "Pete Aguilar (D-CA31)", "Grace Napolitano (D-CA32)", "Ted Lieu (D-CA33)", "Jimmy Gomez (D-CA34)", "Norma Torres (D-CA35)", "Raul Riuz (D-CA36)", "Karen Bass (D-CA37)", "Linda Sánchez (D-CA38)",
-      "Young Kim (R-CA39)", "Lucille Roybal-Allard (D-CA40)", "Mark Takano (D-CA41)", "Ken Calvert (R-CA42)", "Maxine Water (D-CA43)", "Nanette Barragán (D-CA44)", "Katie Porter (D-CA45)", "Lou Correa (D-CA46)",
-      "Alan Lowenthal (D-CA47)", "Michelle Steel (R-CA48)", "Mike Levin (D-CA49)", "Darrell Issa (R-CA50)", "Juan Vargas (D-CA51)", "Scott Peters (D-CA52)", "Sara Jacobs (D-CA53)"],
+      representatives: ["Doug LaMafia (R-CA01)", "Jared Huffman (D-CA02)", "Kevin Kiley (R-CA03)", "Mike Thompson (D-CA04)", "Tom McClintock (R-CA05)", "Ami Bera (D-CA06)",
+      "Doris Matsui (D-CA07)", "Josh Garamendi (D-CA08)", "Josh Harder (D-CA09)", "Mark DeSaulnier (D-CA10)", "Nancy Pelosi (D-CA11)", "Barbara Lee (D-CA12)", "Josh Durate (R-CA13)",
+      "Eric Swalwell (D-CA14)", "Kevin Mullin (D-CA15)", "Anna Eshoo (D-CA16)", "Ro Khanna (D-CA17)", "Zo Lofgren (D-CA18)", "Jimmy Panetta (D-CA19)", "Kevin McCarthy (R-CA20)", "Jim Costa (D-CA21)",
+      "David Valadao (R-CA22)", "Jay Obernolte (R-CA23)", "Salud Carbajal (D-CA24)", "Raul Ruiz (R-CA25)", "Julia Brownley (D-CA26)", "Mike Garcia (R-CA27)", "Judy Chu (D-CA28)", "Tony Cárdenas (D-CA29)",
+      "Adam Schiff (D-CA30)", "Grace Napolitano (D-CA31)", "Brad Sherman (D-CA32)", "Pete Aguilar (D-CA33)", "Jimmy Gomez (D-CA34)", "Norma Torres (D-CA35)", "Ted Lieu (D-CA36)", "Sydney Kamlager-Dove (D-CA37)", "Linda Sánchez (D-CA38)",
+      "Mark Takano (D-CA39)", "Young Kim (R-CA40)", "Ken Calvert (R-CA41)", "Robert Garcia (D-CA42)", "Maxine Water (D-CA43)", "Nanette Barragán (D-CA44)", "Michelle Steel (R-CA45)", "Lou Correa (D-CA46)",
+      "Katie Porter (D-CA47)", "Darrell Issa (R-CA48)", "Mike Levin (D-CA49)", "Scott Peters (D-CA50)", "Sarah Jacobs (D-CA51)", "Juan Vargas (D-CA52)"],
     },
     {
       name: "Colorado",
@@ -87,7 +87,7 @@ export class HomeComponent implements OnInit {
       capital: "Denver",
       governor: "Jared Polis",
       senators: ["Michael Bennet", "John Hickenlooper"],
-      representatives: ["Diana DeDette (D-CO01)", "Joe Neguse (D-CO02)", "Lauren Boebert (R-CO03)", "Ken Buck (R-CO04)", "Doug Lamborn (R-CO05)", "Jason Crow (D-CO06)", "Ed Perlmutter (D-CO07)"]
+      representatives: ["Diana DeDette (D-CO01)", "Joe Neguse (D-CO02)", "Lauren Boebert (R-CO03)", "Ken Buck (R-CO04)", "Doug Lamborn (R-CO05)", "Jason Crow (D-CO06)", "Ed Perlmutter (D-CO07)", "Yadira Caravei (D-CO08)"]
     },
     {
       name: "Connecticut",
@@ -117,10 +117,10 @@ export class HomeComponent implements OnInit {
       capital: "Tallahassee",
       governor: "Ron DeSantis",
       senators: ["Rick Scott", "Marco Rubio"],
-      representatives: ["Matt Gaetz (R-FL01)", "Neal Dunn (R-FL02)", "Kat Cammack (R-FL03)", "John Rutherford (R-FL04)", "Al Lawson (D-FL05)", "Michael Waltz (R-FL06)", "Stephanie Murphy (D-FL07)", "Bill Posey (R-FL08)",
-      "Darren Soto (D-FL09)", "Val Demings (D-FL10)", "Daniel Webster (R-FL11)", "Gus Bilirakis (R-FL12)", "FL13 - Vacant", "Kathy Castor (D-FL14)", "Scott Franklin (R-FL15)", "Vern Buchanan (R-FL16)",
-      "Greg Steube (R-FL17)", "Byron Donalds (R-FL19)", "Sheila Cherfilus-McCormick (D-FL20)", "Lois Frankel (D-FL21)", "FL22 - Vacant", "Debbie Wasserman Schultz (D-FL23)", "Frederica Wilson (D-FL24)",
-      "Mario Díaz-Balart (R-FL25)", "Carlos Giménez (R-FL26)", "María Elvira Salazar (R-FL27)"]
+      representatives: ["Matt Gaetz (R-FL01)", "Neal Dunn (R-FL02)", "Kat Cammack (R-FL03)", "Aaron Bean (R-FL04)", "John Rutherford (R-FL05)", "Michael Waltz (R-FL06)", "Cory Mills (R-FL07)", "Bill Posey (R-FL08)",
+      "Darren Soto (D-FL09)", "Maxwell Frost (D-FL10)", "Daniel Webster (R-FL11)", "Gus Bilirakis (R-FL12)", "Anna Paulina-Luna (R-FL13)", "Kathy Castor (D-FL14)", "Laurel Lee (R-FL15)", "Vern Buchanan (R-FL16)",
+      "Greg Steube (R-FL17)", "Scott Franklin (R-FL18)", "Byron Donalds (R-FL19)", "Sheila Cherfilus-McCormick (D-FL20)", "Brian Mast (R-FL21)", "Lois Frankel (D-FL22)", "Jared Moskowitz (D-FL23)", "Frederica Wilson (D-FL24)",
+      "Debbie Wasserman Schultz (D-FL25)", "Mario Díaz-Balart (R-FL26)", "María Elvira Salazar (R-FL27)", "Carlos Giménez (R-FL28)"]
     },
     {
       name: "Georgia",
@@ -130,8 +130,8 @@ export class HomeComponent implements OnInit {
       capital: "Atlanta",
       governor: "Brian Kemp",
       senators: ["Jon Ossoff", "Raphael Warnock"],
-      representatives: ["Buddy Carter (R-GA01)", "Sanford Bishop (D-GA02)", "Drew Ferguson (R-GA03)", "Hank Johnson (D-GA04)", "Nikema Williams (D-GA05)", "Lucy McBath (D-GA06)", "Carolyn Bourdeaux (D-GA07)",
-      "Austin Scott (R-GA08)", "Andrew Clyde (R-GA09)", "Jody Hice (R-GA10)", "Barry Loudermilk (R-GA11)", "Rick W. Allen (R-GA12)", "David Scorr (D-GA13)", "Majorie Taylor Greene (R-GA14)"]
+      representatives: ["Buddy Carter (R-GA01)", "Sanford Bishop (D-GA02)", "Drew Ferguson (R-GA03)", "Hank Johnson (D-GA04)", "Nikema Williams (D-GA05)", "Rich McCormick (R-GA06)", "Lucy McBath (D-GA07)",
+      "Austin Scott (R-GA08)", "Andrew Clyde (R-GA09)", "Mike Collins (R-GA10)", "Barry Loudermilk (R-GA11)", "Rick W. Allen (R-GA12)", "David Scorr (D-GA13)", "Majorie Taylor Greene (R-GA14)"]
     },
     {
       name: "Hawaii",
@@ -139,9 +139,9 @@ export class HomeComponent implements OnInit {
       motto: "The Life of the Land is Perpetuated in Righteousness",
       flagLink: "./assets/flags/HI.png",
       capital: "Honolulu",
-      governor: "David Ige",
+      governor: "Josh Green",
       senators: ["Brian Schatz", "Mazie Hirono"],
-      representatives: ["Ed Case (D-HI01)", "Kai Kahele (D-HI02)"]
+      representatives: ["Ed Case (D-HI01)", "Jill Tokuda (D-HI02)"]
     },
     {
       name: "Idaho",
@@ -161,9 +161,9 @@ export class HomeComponent implements OnInit {
       capital: "Springfield",
       governor: "JB Pritzker",
       senators: ["Dick Durbin", "Tammy Duckworth"],
-      representatives: ["Bobby Rush (D-IL01)",
-        "Robin Kelly (D-IL02)", "Marie Newman (D-IL03)", "Jesús Garcia (D-IL04)", "Mike Quigley (D-IL05)", "Sean Casten (D-IL06)", "Danny K. Davis (D-IL07)", "Raja Krishnamoorthi (D-IL08)", "Jan Schakowsky (IL-09)",
-        "Brad Schneider (IL-10)", "Bill Foster (D-IL11)", "Mike Bost (R-IL12)", "Rodney Davis (R-IL13)", "Lauren Underwood (D-IL14)", "Mary Miller (R-IL15)", "Adam Kinzinger (R-IL16)", "Cheri Bustos (D-IL17)", "Darin LaHood (R-IL18)"]
+      representatives: ["Jonathan Jackson (D-IL01)",
+        "Robin Kelly (D-IL02)", "Delia Ramirez (D-IL03)", "Jesús Garcia (D-IL04)", "Mike Quigley (D-IL05)", "Sean Casten (D-IL06)", "Danny K. Davis (D-IL07)", "Raja Krishnamoorthi (D-IL08)", "Jan Schakowsky (IL-09)",
+        "Brad Schneider (IL-10)", "Bill Foster (D-IL11)", "Mike Bost (R-IL12)", "Nikki Budzinski (D-IL13)", "Lauren Underwood (D-IL14)", "Mary Miller (R-IL15)", "Darin LaHood (R-IL16)", "Eric Sorensen (D-IL17)"]
     },
     {
       name: "Indiana",
@@ -173,8 +173,8 @@ export class HomeComponent implements OnInit {
       capital: "Indianapolis",
       governor: "Eric Holcomb",
       senators: ["Todd Young", "Mike Braun"],
-      representatives: ["Frank J. Mrvan (D-IN01)", "IN02 - Vacant", "Jim Banks (R-IN03)", "Jim Baird (R-IN04)", "Victoria Spartz (R-IN05)", "Greg Pence (R-IN06)", "André Carson (D-IN07)",
-      "Larry Bucshon (R-IN08)", "Trey Hollingsworth (R-IN09)"]
+      representatives: ["Frank J. Mrvan (D-IN01)", "Rudy Yakym (R-IN02)", "Jim Banks (R-IN03)", "Jim Baird (R-IN04)", "Victoria Spartz (R-IN05)", "Greg Pence (R-IN06)", "André Carson (D-IN07)",
+      "Larry Bucshon (R-IN08)", "Erin Houchin (R-IN09)"]
     },
     {
       name: "Iowa",
@@ -184,7 +184,7 @@ export class HomeComponent implements OnInit {
       capital: "Des Moines",
       governor: "Kim Reynolds",
       senators: ["Chuck Grassley", "Joni Ernst"],
-      representatives: ["Ashley Hinson (R-IA01)", "Mariannette Miller-Meeks (R-IA02)", "Cindy Axne (D-IA03)", "Randy Feenstra (R-IA04)"]
+      representatives: ["Mariannette Miller-Meeks (R-IA01)", "Ashley Hinson (R-IA02)", "Zach Nunn (R-IA03)", "Randy Feenstra (R-IA04)"]
     },
     {
       name: "Kansas",
@@ -205,7 +205,7 @@ export class HomeComponent implements OnInit {
       governor: "Andy Beshear",
       senators: ["Mitch McConnell", "Rand Paul"],
       representatives: [
-        "James Comer (R-KY01)", "Brett Guthrie (R-KY02)", "John Yarmuth (D-KY03)", "Thomas Massie (R-KY04)", "Hal Rogers (R-KY05)", "Andy Barr (R-KY06)"]
+        "James Comer (R-KY01)", "Brett Guthrie (R-KY02)", "Morgan McGarvey (D-KY03)", "Thomas Massie (R-KY04)", "Hal Rogers (R-KY05)", "Andy Barr (R-KY06)"]
     },
     {
       name: "Louisiana",
@@ -234,9 +234,9 @@ export class HomeComponent implements OnInit {
       motto: "Strong Deeds, Gentle Words",
       flagLink: "./assets/flags/MD.jpg",
       capital: "Annapolis",
-      governor: "Larry Hogan",
+      governor: "Wes Moore",
       senators: ["Ben Cardin", "Chris Van Hollen"],
-      representatives: ["Andy Harris (R-MD01)", "Dutch Ruppersberger (D-MD02)", "John Sarbanes (D-MD03)", "Anthony G. Brown (D-MD04)", "Steny Hoyer (D-MD05)", "David Trone (D-MD06)", "Kweisi Mfume (D-MD07)", "Jamie Raskin (D-MD08)"
+      representatives: ["Andy Harris (R-MD01)", "Dutch Ruppersberger (D-MD02)", "John Sarbanes (D-MD03)", "Glenn Ivey (D-MD04)", "Steny Hoyer (D-MD05)", "David Trone (D-MD06)", "Kweisi Mfume (D-MD07)", "Jamie Raskin (D-MD08)"
         ]
     },
     {
@@ -245,7 +245,7 @@ export class HomeComponent implements OnInit {
       motto: "By the sword we seek peace, but peace only under liberty",
       flagLink: "./assets/flags/MA.png",
       capital: "Boston",
-      governor: "Charlie Baker",
+      governor: "Maura Healey",
       senators: ["Elizabeth Warren", "Ed Markey"],
       representatives: ["Richard Neal (D-MA01)", "Jim McGovern (D-MA02)", "Lori Trahan (D-MA03)", "Jake Auchincloss (D-MA04)", "Katherine Clark (D-MA05)", "Seth Moulton (D-MA06)", "Ayanna Pressley (D-MA07)", "Stephen D. Lynch (D-MA08)", "Bill Keating (D-MA09)"
         ]
@@ -259,10 +259,8 @@ export class HomeComponent implements OnInit {
       governor: "Gretchen Whitmer",
       senators: ["Debbie Stabenow", "Gary Peters"],
       representatives: [
-        "Jack Bergman (R-MI01)", "Bill Huizenga (R-MI02)", "Peter Meijer (R-MI03)", "John Moolenaar (R-MI04)", "Dan Kildee (D-MI05)", "Fred Upton (R-MI06)", "Tim Walberg (R-MI07)",
-        "Elissa Slotkin (D-MI08)","Andy Levin (D-MI09)", "Lisa McClain (R-MI10)", "Haley Stevens (D-MI11)", "Debbie Dingell (D-MI12)", "Rashida Tlaib (D-MI13)", "Brenda Lawrence (D-MI14)"
-
-      ]
+        "Jack Bergman (R-MI01)", "John Moolenaar (R-MI02)", "Hillary Scholten (D-MI03)", "Bill Huizenga (R-MI04)", "Tim Walberg (D-MI05)", "Debbie Dingell (D-MI06)", "Elissa Slotkin (D-MI07)",
+        "Dan Kildee (D-MI08)","Lisa McClain (R-MI09)", "John James (R-MI10)", "Haley Stevens (D-MI11)", "Rashida Tlaib (D-MI12)", "Shri Thanedar (D-MI13)"]
     },
     {
       name: "Minnesota",
@@ -273,7 +271,7 @@ export class HomeComponent implements OnInit {
       governor: "Tim Walz",
       senators: ["Amy Klobuchar", "Tina Smith"],
       representatives: [
-        "Brad Finstad (R-MN01)", "Angie Craig (D-MN02)", "Dean Phillips (D-MN03)", "Betty McCollum (D-MN04)", "Illhan Omar (D-MN05)", "Tom Emmer (R-MN06)", "Michelle Rishbach (R-MN07)", "Pete Stauber (R-MN08)"
+        "Brad Finstad (R-MN01)", "Angie Craig (D-MN02)", "Dean Phillips (D-MN03)", "Betty McCollum (D-MN04)", "Illhan Omar (D-MN05)", "Tom Emmer (R-MN06)", "Michelle Fishbach (R-MN07)", "Pete Stauber (R-MN08)"
         ]
     },
     {
@@ -285,7 +283,7 @@ export class HomeComponent implements OnInit {
       governor: "Tate Reeves",
       senators: ["Roger Wicker", "Cindy Hyde-Smith"],
       representatives: [
-        "Trent Kelly (R-MS01)", "Bennie Thompson (D-MS02)", "Michael Guest (R-MS03)", "Steven Palazzo (R-MS04)"
+        "Trent Kelly (R-MS01)", "Bennie Thompson (D-MS02)", "Michael Guest (R-MS03)", "Mike Ezell (R-MS04)"
       ]
     },
     {
@@ -295,9 +293,9 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/MO.png",
       capital: "Jefferson City",
       governor: "Michael Parson",
-      senators: ["Roy Blunt", "Josh Hawley"],
+      senators: ["Eric Schmitt", "Josh Hawley"],
       representatives: [
-        "Cori Bush (D-MO01)", "Ann Wagner (R-MO02)", "Blaine Luetkemeyer (R-MO03)", "Vicky Hartzler (R-MO04)", "Emanuel Cleaver (D-MO05)", "Sam Graves (R-MO06)", "Billy Long (R-MO07)", "Jason Smith (R-MO08)"
+        "Cori Bush (D-MO01)", "Ann Wagner (R-MO02)", "Blaine Luetkemeyer (R-MO03)", "Mark Alford (R-MO04)", "Emanuel Cleaver (D-MO05)", "Sam Graves (R-MO06)", "Eric Burlison (R-MO07)", "Jason Smith (R-MO08)"
       ]
     },
     {
@@ -308,7 +306,7 @@ export class HomeComponent implements OnInit {
       capital: "Helena",
       governor: "Greg Gianforte",
       senators: ["Jon Tester", "Steve Daines"],
-      representatives: ["Matt Rosendale (R-MTAtLarge)"]
+      representatives: ["Ryan Zinke (R-MT01)", "Matt Rosendale (R-MT02)"]
     },
     {
       name: "Nebraska",
@@ -316,8 +314,8 @@ export class HomeComponent implements OnInit {
       motto: "Equality before the law",
       flagLink: "./assets/flags/NE.jpg",
       capital: "Lincoln",
-      governor: "Pete Ricketts",
-      senators: ["Deb Fischer", "Ben Sasse"],
+      governor: "Jim Pillen",
+      senators: ["Deb Fischer", "Pete Ricketts"],
       representatives: ["Mike Flood (R-NE01)", "Don Bacon (R-NE02)", "Adrian Smith (R-NE03)"]
     },
     {
@@ -326,7 +324,7 @@ export class HomeComponent implements OnInit {
       motto: "All for Our Country",
       flagLink: "./assets/flags/NV.png",
       capital: "Carson City",
-      governor: "Steve Sisolak",
+      governor: "Joe Lombardo",
       senators: ["Catherine Cortez Masto", "Jacky Rosen"],
       representatives: ["Dina Titus (D-NV01)", "Mark Amodei (R-NV02)", "Susie Lee (D-NV03)", "Steven Horsford (D-NV04)"]
     },
@@ -349,8 +347,8 @@ export class HomeComponent implements OnInit {
       capital: "Trenton",
       governor: "Phil Murphy",
       senators: ["Bob Menendez", "Cory Booker"],
-      representatives: ["Donald Norcross (D-NJ01)", "Jeff Van Drew (R-NJ02)", "Andy Kim (D-NJ03)", "Chris Smith (R-NJ04)", "Josh Gottheimer (D-NJ05)", "Frank Pallone (D-NJ06)", "Tom Malinowski (D-NJ07)",
-        "Albio Sires (D-NJ08)", "Bill Pascrell (D-NJ09)", "Donald Payne Jr. (D-NJ10)", "Mikie Sherrill (D-NJ11)", "Bonnie Watyson Coleman (D-NJ12)"
+      representatives: ["Donald Norcross (D-NJ01)", "Jeff Van Drew (R-NJ02)", "Andy Kim (D-NJ03)", "Chris Smith (R-NJ04)", "Josh Gottheimer (D-NJ05)", "Frank Pallone (D-NJ06)", "Thomas Kean Jr. (R-NJ07)",
+        "Rob Menendez (D-NJ08)", "Bill Pascrell (D-NJ09)", "Donald Payne Jr. (D-NJ10)", "Mikie Sherrill (D-NJ11)", "Bonnie Watyson Coleman (D-NJ12)"
         ]
     },
     {
@@ -361,7 +359,7 @@ export class HomeComponent implements OnInit {
       capital: "Santa Fe",
       governor: "Michelle Lujan Grisham",
       senators: ["Martin Heinrich", "Ben Ray Luján"],
-      representatives: ["Melanie Stansbury (D-NM01)", "Yvette Herrell (R-NM02)", "Teresa Keger Fernandez (D-NM03)"
+      representatives: ["Melanie Stansbury (D-NM01)", "Gabe Vasquez (D-NM02)", "Teresa Keger Fernandez (D-NM03)"
         ]
     },
     {
@@ -372,33 +370,32 @@ export class HomeComponent implements OnInit {
       capital: "Albany",
       governor: "Kathy Hochul",
       senators: ["Chuck Schumer", "Kirsten Gillibrand"],
-      representatives: ["Lee Zeldin (R-NY01)",
+      representatives: ["Nick LaLota (R-NY01)",
         "Andrew Garbarino (R-NY02)",
-        "Thomas Suozzi (D-NY03)",
-        "Kathleen Rice (D-NY04)",
+        "George Santos (R-NY03)",
+        "Anthony D’Esposito (R-NY04)",
         "Gregory Meeks (D-NY05)",
         "Grace Meng (D-NY06)",
         "Nydia Velázquez (D-NY07)",
         "Hakeem Jeffries (D-NY08)",
         "Yvette Clarke (D-NY09)",
-        "Jerry Nadler (D-NY10)",
+        "Dan Goldman (D-NY10)",
         "Nicole Malliotakis (R-NY11)",
-        "Carolyn Maloney (D-NY12)",
+        "Jerry Nadler (D-NY12)",
         "Adriano Espaillat (D-NY13)",
         "Alexandria Ocasio-Cortez (D-NY14)",
         "Ritchie Torres (D-NY15)",
         "Jamaal Bowman (D-NY16)",
-       "Mondaire Jones (D-NY17)",
-        "Sean Patrick Maloney (D-NY18)",
-        "Pat Ryan (D-NY19)",
+       "Mike Lawler (R-NY17)",
+        "Pat Ryan (D-NY18)",
+        "Marc Molinaro (R-NY19)",
         "Paul Tonko (D-NY20)",
         "Elise Stefanik (R-NY21)",
-        "Claudia Tenney (R-NY22)",
-        "Joe Sempolinski (R-NY23)",
-        "John Katko (R-NY24)",
+        "Brandon WIlliams (R-NY22)",
+        "Nick Langworthy (R-NY23)",
+        "Claudia Tenney (R-NY24)",
         "Joseph Morelle (D-NY25)",
-        "Brian Higgins (D-NY26)",
-        "Chris Jacobs (R-NY27)"
+        "Brian Higgins (D-NY26)"
         ]
     },
     {
@@ -408,21 +405,22 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/NC.jpg",
       capital: "Raleigh",
       governor: "Roy Cooper",
-      senators: ["Richard Burr ", "Thom Tillis"],
+      senators: ["Ted Budd", "Thom Tillis"],
       representatives: [
-        "G.K. Butterfield (D-NC01)",
+        "Don Davis (D-NC01)",
         "Deborah Ross (D-NC02)",
         "Greg Murphy (R-NC03)",
-        "David Price (D-NC04)",
+        "Valerie Foushee (D-NC04)",
         "Virginia Foxx (R-NC05)",
         "Kathy Manning (D-NC06)",
         "David Rouzer (R-NC07)",
-        "Richard Hudson (R-NC08)",
-        "Dan Bishop (R-NC09)",
+        "Dan Bishop (R-NC08)",
+        "Richard Hudson (R-NC09)",
         "Patrick McHenry (R-NC10)",
-        "Madison Cawthorn (R-NC11)",
+        "Chuck Edwards (R-NC11)",
         "Alma Adams (D-NC12)",
-        "Ted Budd (R-NC13)" 
+        "Wiley Nickel (D-NC13)",
+        "Jeff Jackson (D-NC14)" 
       ]
     },
     {
@@ -442,24 +440,23 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/OH.gif",
       capital: "Columbus",
       governor: "Mike DeWine",
-      senators: ["Sherrod Brown", "Rob Portman"],
+      senators: ["Sherrod Brown", "JD Vance"],
       representatives: [
-        "Steve Chabot (R-OH01)",
+        "Greg Landsman (D-OH01)",
         "Brad Wenstrup (R-OH02)",
         "Joyce Beatty (D-OH03)",
         "Jim Jordan (R-OH04)",
         "Bob Latta (R-OH05)",
         "Bill Johnson (R-OH06)",
-        "Bob Gibbs (R-OH07)",
+        "Max Miller (R-OH07)",
         "Warren Davidson (R-OH08)",
         "Marcy Kaptur (D-OH09)",
         "Mike Turner (R-OH10)",
         "Shontel Brown (D-OH11)",
         "Troy Balderson (R-OH12)",
-        "Tim Ryan (D-OH13)",
+        "Emilia Sykes (D-OH13)",
         "David Joyce (R-OH14)",
-        "Mike Carey (R-OH15)",
-        "Anthony Gonzalez (R-OH16)"
+        "Mike Carey (R-OH15)"
       ]
     },
     {
@@ -469,8 +466,8 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/OK.jpg",
       capital: "Oklahoma City",
       governor: "Kevin Stitt",
-      senators: ["Jim Inhofe", "James Lankford"],
-      representatives: ["Kevin Hern (R-OK01)", "Markwayne Mullin (R-OK02)", "Frank Lucas (R-OK03)", "Tom Cole (R-OK04)", "Stephanie Bice (R-OK05)"
+      senators: ["Markwayne Mullin", "James Lankford"],
+      representatives: ["Kevin Hern (R-OK01)", "Josh Brecheen (R-OK02)", "Frank Lucas (R-OK03)", "Tom Cole (R-OK04)", "Stephanie Bice (R-OK05)"
         ]
     },
     {
@@ -479,14 +476,15 @@ export class HomeComponent implements OnInit {
       motto: "She flies with her own wings",
       flagLink: "./assets/flags/OR.png",
       capital: "Salem",
-      governor: "Kate Brown",
+      governor: "Tina Kotek",
       senators: ["Ron Wyden", "Jeff Merkley"],
       representatives: [
         "Suzanne Bonamici (D-OR01)",
         "Cliff Bentz (R-OR02)",
         "Earl Blumenauer (D-OR03)",
-        "Peter DeFrazio (D-OR04)",
-        "Kurt Schrader (D-OR05)"
+        "Vale Hoyle (D-OR04)",
+        "Lori Chavez-DeRemer (R-OR05)",
+        "Andrea Salinas (D-OR06)"
       ]
     },
     {
@@ -495,8 +493,8 @@ export class HomeComponent implements OnInit {
       motto: "Virtue, Liberty and Independence",
       flagLink: "./assets/flags/PA.png",
       capital: "Harrisburg",
-      governor: "Tom Wolf",
-      senators: ["Bob Casey Jr.", "Pat Toomey"],
+      governor: "Josh Shapiro",
+      senators: ["Bob Casey Jr.", "John Fetterman"],
       representatives: [
         "Brian Fitzpatrick (R-PA01)",
         "Brendan Boyle (D-PA02)",
@@ -509,13 +507,12 @@ export class HomeComponent implements OnInit {
         "Dan Meuser (R-PA09)",
         "Scott Perry (R-PA10)",
         "Lloyd Smucker (R-PA11)",
-        "Fred Keller (R-PA12)",
+        "Summer Lee (D-PA12)",
         "John Joyce (R-PA13)",
         "Guy Reschenthaler (R-PA14)",
         "Glenn Thompson (R-PA15)",
         "Mike Kelly (R-PA16)",
-        "Connor Lamb (D-PA17)",
-        "Mike Doyle (D-PA18)"
+        "Chris Deluzio (D-PA17)"
         ]
     },
     {
@@ -528,7 +525,7 @@ export class HomeComponent implements OnInit {
       senators: ["Jack Reed", "Sheldon Whitehouse"],
       representatives: [
         "David Cicilline (D-RI01)",
-        "James Langevin (D-RI02)"
+        "Seth Magaziner (D-RI02)"
         ]
     },
     {
@@ -546,7 +543,7 @@ export class HomeComponent implements OnInit {
         "William Timmons (R-SC04)",
         "Ralph Norman (R-SC05)",
         "Jim Clyburn (D-SC06)",
-        "Tom Rice (R-SC07)"
+        "Russel Fry (R-SC07)"
         ]
     },
     {
@@ -574,7 +571,7 @@ export class HomeComponent implements OnInit {
         "Tim Burchett (R-TN02)",
         "Chuck Fleischmann (R-TN03)",
         "Scott DesJarlais (R-TN04)",
-        "Jim Cooper (D-TN05)",
+        "Andy Ogles (R-TN05)",
         "John Rose (R-TN06)",
         "Mark E. Green (R-TN07)",
         "David Kustoff (R-TN08)",
@@ -590,21 +587,21 @@ export class HomeComponent implements OnInit {
       governor: "Greg Abbott",
       senators: ["John Cornyn", "Ted Cruz"],
       representatives: [
-        "Louie Gohmert (R-TX01)",
+        "Nathaniel Moran (R-TX01)",
         "Dan Crenshaw (R-TX02)",
-        "Van Taylor (R-TX03)",
+        "Keith Self (R-TX03)",
         "Pat Fallon (R-TX04)",
         "Lance Gooden (R-TX05)",
         "Jake Ellzey (R-TX06)",
         "Lizzie Fletcher (D-TX07)",
-        "Kevin Brady (R-TX08)",
+        "Morgan Luttrell (R-TX08)",
         "Al Green (D-TX09)",
         "Michael McCaul (R-TX10)",
         "August Pfluger (R-TX11)",
         "Kay Granger (R-TX12)",
         "Ronny Jackson (R-TX13)",
         "Randy Weber (R-TX14)",
-        "Vicente Gonzalez (D-TX15)",
+        "Monica De La Cruz (R-TX15)",
         "Veronica Escobar (D-TX16)",
         "Pete Sessions (R-TX17)",
         "Sheila Jackson Lee (D-TX18)",
@@ -619,13 +616,15 @@ export class HomeComponent implements OnInit {
         "Michael Cloud (R-TX27)",
         "Henry Cuellar (D-TX28)",
         "Sylvia Garcia (D-TX29)",
-        "Eddie Bernice Johnson (D-TX30)",
+        "Jasmine Crockett (D-TX30)",
         "John Carter (R-TX31)",
         "Colin Allred (D-TX32)",
         "Marc Veasey (D-TX33)",
-        "Mayra Flores (R-TX34)",
-        "Lloyd Doggett (D-TX35)",
-        "Brian Babin (R-TX36)"
+        "Vicente Gonzalez (D-TX34)",
+        "Greg Casar (D-TX35)",
+        "Brian Babin (R-TX36)",
+        "Lloyd Doggett (D-TX37)",
+        "Wesley Hunt (R-TX38)"
       ]
     },
     {
@@ -651,8 +650,8 @@ export class HomeComponent implements OnInit {
       flagLink: "./assets/flags/VT.jpg",
       capital: "Montpelier",
       governor: "Phil Scott",
-      senators: ["Patrick Leahy", "Bernie Sanders"],
-      representatives: ["Peter Welch (D-VTAtLarge)"]
+      senators: ["Peter Welch", "Bernie Sanders"],
+      representatives: ["Becca Balint (D-VTAtLarge)"]
     },
     {
       name: "Virginia",
@@ -664,9 +663,9 @@ export class HomeComponent implements OnInit {
       senators: ["Mark Warner", "Tim Kaine"],
       representatives: [
         "Rob Wittman (R-VA01)",
-        "Elaine Luria (D-VA02)",
+        "Jen Kiggans (R-VA02)",
         "Bobby Scott (D-VA03)",
-        "Donald McEachin (D-VA04)",
+        "Jennifer McClellan (D-VA04)",
         "Bob Good (R-VA05)",
         "Ben Cline (R-VA06)",
         "Abigail Spanberger (D-VA07)",
@@ -687,7 +686,7 @@ export class HomeComponent implements OnInit {
       representatives: [
         "Suzan DelBene (D-WA01)",
         "Rick Larsen (D-WA02)",
-        "Jaime Herrera Beutler (R-WA03)",
+        "Marie Gluesenkamp Perez (D-WA03)",
         "Dan Newhouse (R-WA04)",
         "Cathy McMorris Rodgers (R-WA05)",
         "Derek Kilmer (D-WA06)",
@@ -706,9 +705,8 @@ export class HomeComponent implements OnInit {
       governor: "Jim Justice",
       senators: ["Joe Manchin", "Shelley Moore Capito"],
       representatives: [
-        "David McKinley (R-WV01)",
-        "Alex Mooney (R-WV02)",
-        "Carol Miller (R-WV03)"
+        "Carol Miller (R-WV01)",
+        "Alex Mooney (R-WV02)"
         ]
     },
     {
@@ -722,7 +720,7 @@ export class HomeComponent implements OnInit {
       representatives: [
         "Bryan Steil (R-WI01)",
         "Mark Pocan (D-WI02)",
-        "Ron Kind (D-WI03)",
+        "Derrick Van Orden (R-WI03)",
         "Gwen Moore (D-WI04)",
         "Scott Fitzgerald (R-WI05)",
         "Glenn Grithman (R-WI06)",
@@ -738,7 +736,7 @@ export class HomeComponent implements OnInit {
       capital: "Cheyenne",
       governor: "Mark Gordon",
       senators: ["John Barrasso", "Cynthia Lummis"],
-      representatives: ["Liz Cheney (R-WYAtLarge)"]
+      representatives: ["Harriet Hageman (R-WYAtLarge)"]
     }
   ];
 
